@@ -1,0 +1,60 @@
+{
+  "name": "montag",
+  "version": "1.0.0",
+  "description": "format multiline strings using tagged templates, instead of puting all lines into an array and joining to a string",
+  "main": "./lib/montag.js",
+  "exports": "./lib/montag.js",
+  "scripts": {
+    "test": "madrun test",
+    "coverage": "madrun coverage",
+    "lint": "madrun lint",
+    "fix:lint": "madrun fix:lint",
+    "report": "madrun report",
+    "watcher": "madrun watcher",
+    "watch:test": "madrun watch:test",
+    "watch:lint": "madrun watch:lint",
+    "watch:tape": "madrun watch:tape",
+    "watch:coverage:base": "madrun watch:coverage:base",
+    "watch:coverage:tape": "madrun watch:coverage:tape",
+    "watch:coverage": "madrun watch:coverage"
+  },
+  "nyc": {
+    "include": [
+      "lib"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/montag.git"
+  },
+  "keywords": [
+    "tag",
+    "literal",
+    "join",
+    "template",
+    "array"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/montag/issues"
+  },
+  "homepage": "https://github.com/coderaiser/montag",
+  "devDependencies": {
+    "@cloudcmd/stub": "^2.3.2",
+    "coveralls": "^3.0.0",
+    "eslint": "^7.0.0-rc.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-putout": "^4.0.2",
+    "madrun": "^6.0.0",
+    "mock-require": "^3.0.3",
+    "nodemon": "^2.0.2",
+    "nyc": "^15.0.0",
+    "putout": "^8.0.4",
+    "supertape": "^1.2.3"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
