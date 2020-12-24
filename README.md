@@ -26,24 +26,22 @@ const str2 = [
     '    console.log(c)',
 ].join('\n');
 
-str1 === str2
+str1 === str2;
 // returns
-true
+true;
 ```
 
 ## License
 
 MIT
 
-[NPMIMGURL]:                https://img.shields.io/npm/v/montag.svg?style=flat&longCache=true
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/montag/master.svg?style=flat&longCache=true
-[DependencyStatusIMGURL]:   https://img.shields.io/david/coderaiser/montag.svg?style=flat&longCache=true
-[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat&longCache=true
-[NPMURL]:                   https://npmjs.org/package/montag 'npm'
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/montag  'Build Status'
-[DependencyStatusURL]:      https://david-dm.org/coderaiser/montag 'Dependency Status'
-[LicenseURL]:               https://tldrlegal.com/license/mit-license 'MIT License'
-
-[CoverageURL]:              https://coveralls.io/github/coderaiser/montag?branch=master
-[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/montag/badge.svg?branch=master&service=github
-
+[NPMIMGURL]: https://img.shields.io/npm/v/montag.svg?style=flat&longCache=true
+[BuildStatusIMGURL]: https://img.shields.io/travis/coderaiser/montag/master.svg?style=flat&longCache=true
+[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/montag.svg?style=flat&longCache=true
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat&longCache=true
+[NPMURL]: https://npmjs.org/package/montag "npm"
+[BuildStatusURL]: https://travis-ci.org/coderaiser/montag "Build Status"
+[DependencyStatusURL]: https://david-dm.org/coderaiser/montag "Dependency Status"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
+[CoverageURL]: https://coveralls.io/github/coderaiser/montag?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/montag/badge.svg?branch=master&service=github

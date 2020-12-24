@@ -41,7 +41,6 @@
   },
   "homepage": "https://github.com/coderaiser/montag",
   "devDependencies": {
-    "@cloudcmd/stub": "^2.3.2",
     "coveralls": "^3.0.0",
     "eslint": "^7.0.0-rc.0",
     "eslint-plugin-node": "^11.0.0",
