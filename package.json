@@ -50,7 +50,7 @@
     "mock-require": "^3.0.3",
     "nodemon": "^2.0.2",
     "nyc": "^15.0.0",
-    "putout": "^8.0.4",
+    "putout": "^12.9.2",
     "supertape": "^4.1.0"
   },
   "dependencies": {},
