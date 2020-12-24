@@ -54,3 +54,17 @@ test('montag: empty lines', (t) => {
     t.end();
 });
 
+test('montag: variable', (t) => {
+    const b = 'hello';
+    const result = montag`
+        const a = "${b}";
+    `;
+    
+    const expected = [
+        'const a = "hello";',
+    ].join('\n');
+    
+    t.equal(result, expected);
+    t.end();
+});
+
