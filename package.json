@@ -51,7 +51,7 @@
     "nodemon": "^2.0.2",
     "nyc": "^15.0.0",
     "putout": "^8.0.4",
-    "supertape": "^1.2.3"
+    "supertape": "^4.1.0"
   },
   "dependencies": {},
   "publishConfig": {
