@@ -1,0 +1,9 @@
+2020.12.24, v1.1.0
+
+feature:
+- (montag) add support of variables in template literals
+- (package) madrun v8.1.0
+- (package) eslint-plugin-putout v6.11.0
+- (package) putout v12.9.2
+- (package) supertape v4.1.0
+
