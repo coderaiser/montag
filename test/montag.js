@@ -68,3 +68,24 @@ test('montag: variable', (t) => {
     t.end();
 });
 
+test('montag: multiline code', (t) => {
+    const result = montag`
+        const expected = [
+        {
+            hello: 'world',
+        }
+    ];
+    `;
+    
+    const expected = [
+        `const expected = [`,
+        `{`,
+        `    hello: 'world',`,
+        `}`,
+        `];`,
+    ].join('\n');
+    
+    t.equal(result, expected);
+    t.end();
+});
+
