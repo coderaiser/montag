@@ -4,7 +4,7 @@ const {run} = require('madrun');
 
 module.exports = {
     'test': () => 'tape test/*.js',
-    'coverage': () => 'nyc npm test',
+    'coverage': async () => `c8 ${await run('test')}`,
     'lint': () => 'putout .',
     'fresh:lint': () => run('lint', '--fresh'),
     'lint:fresh': () => run('lint', '--fresh'),
