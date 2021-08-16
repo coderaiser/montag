@@ -89,3 +89,11 @@ test('montag: multiline code', (t) => {
     t.end();
 });
 
+test('montag: mone new line', (t) => {
+    const result = montag`
+    `;
+    
+    t.equal(result, '');
+    t.end();
+});
+
