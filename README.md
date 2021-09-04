@@ -3,7 +3,7 @@
 > “If you don’t want a house built, hide the nails and wood.
 > If you don’t want a man unhappy politically, don’t give him two sides to a question to worry him; give him one. Better yet, give him none.”
 
-Format multiline strings using [tagged templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates), instead of puting all lines into an array and joining to a string.
+Format multiline strings using [tagged templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates), instead of puting all lines into an array and joining to a string. Use [@putout/plugin-apply-montag](https://github.com/coderaiser/putout/tree/v19.7.0/packages/plugin-apply-montag) to convert existing code to `montag`.
 
 ## Install
 
