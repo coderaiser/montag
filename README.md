@@ -5,7 +5,7 @@
 >
 > (c) Ray Bradbury "Fahrenheit 451"
 
-Format multiline strings using [tagged templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates), instead of puting all lines into an array and joining to a string. Use [@putout/plugin-apply-montag](https://github.com/coderaiser/putout/tree/v19.7.0/packages/plugin-apply-montag) to convert existing code to `montag`.
+Format multiline strings using [tagged templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates), instead of puting all lines into an array and joining to a string. Use [@putout/plugin-montag](https://github.com/coderaiser/putout/tree/master/packages/plugin-montag) to convert existing code to `montag`.
 
 ## Install
 
