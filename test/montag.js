@@ -3,7 +3,7 @@
 const test = require('supertape');
 const montag = require('..');
 
-test('montag', (t) => {
+test('montag: remove indentation', (t) => {
     const result = montag`
         hello,
         world,
