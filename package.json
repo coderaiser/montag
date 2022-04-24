@@ -2,7 +2,7 @@
   "name": "montag",
   "version": "1.2.1",
   "type": "commonjs",
-  "description": "format multiline strings using tagged templates, instead of puting all lines into an array and joining to a string",
+  "description": "format multiline strings using tagged templates, instead of putting all lines into an array and joining to a string",
   "main": "./lib/montag.js",
   "exports": "./lib/montag.js",
   "scripts": {
