@@ -19,16 +19,20 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
+      - name: Install redrun
+        run: npm i redrun -g 
+
       - name: Install
         run: npm i
+
       - name: Lint
-        run: npm run fix:lint
+        run: redrun fix:lint
       - name: Commit fixes
         uses: EndBug/add-and-commit@v7
         with:
           message: chore(${{ env.NAME }}) lint using actions
       - name: Coverage
-        run: npm run coverage:ci report
+        run: redrun coverage report
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
