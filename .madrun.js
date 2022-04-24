@@ -9,7 +9,7 @@ module.exports = {
     'fresh:lint': () => run('lint', '--fresh'),
     'lint:fresh': () => run('lint', '--fresh'),
     'fix:lint': () => run('lint', '--fix'),
-    'report': () => 'nyc report --reporter=text-lcov | coveralls',
+    'report': () => 'c8 report --reporter=lcov',
     'watcher': () => 'nodemon -w test -w lib --exec',
     'watch:test': () => run('watcher', 'npm test'),
     'watch:lint': async () => await run('watcher', `'npm run lint'`),
