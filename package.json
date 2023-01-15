@@ -39,7 +39,7 @@
   "devDependencies": {
     "c8": "^7.8.0",
     "eslint": "^8.11.0",
-    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-putout": "^14.5.0",
     "madrun": "^9.0.0",
     "mock-require": "^3.0.3",
