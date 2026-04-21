@@ -42,7 +42,7 @@
     "eslint-plugin-putout": "^31.1.2",
     "madrun": "^13.0.1",
     "mock-require": "^3.0.3",
-    "nodemon": "^2.0.2",
+    "nodemon": "^3.1.14",
     "putout": "^28.5.0",
     "superc8": "^12.3.1",
     "supertape": "^8.2.0"
