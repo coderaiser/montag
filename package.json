@@ -43,7 +43,7 @@
     "madrun": "^13.0.1",
     "mock-require": "^3.0.3",
     "nodemon": "^3.1.14",
-    "putout": "^28.5.0",
+    "putout": "^42.4.6",
     "superc8": "^12.3.1",
     "supertape": "^8.2.0"
   },
