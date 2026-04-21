@@ -1,5 +1,5 @@
 import {test} from 'supertape';
-import montag from '../lib/montag.js';
+import {montag} from '../lib/montag.js';
 
 test('montag: remove indentation', (t) => {
     const result = montag`
