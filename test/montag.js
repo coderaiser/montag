@@ -1,6 +1,6 @@
 'use strict';
 
-const test = require('supertape');
+const {test} = require('supertape');
 const montag = require('..');
 
 test('montag: remove indentation', (t) => {
@@ -24,10 +24,7 @@ test('montag: indentations', (t) => {
             console.log("hello");
     `;
     
-    const expected = [
-        'if (a)',
-        '    console.log("hello");',
-    ].join('\n');
+    const expected = ['if (a)', '    console.log("hello");'].join('\n');
     
     t.equal(result, expected);
     t.end();
@@ -96,4 +93,3 @@ test('montag: mone new line', (t) => {
     t.equal(result, '');
     t.end();
 });
-

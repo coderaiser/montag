@@ -1,10 +1,12 @@
-package-lock.json
-node_modules
-npm-debug.log*
-yarn-error.log
+*.swp
+*.log
+*.lock
 
 .nyc_output
-*.swp
-
-coverage
 .idea
+
+package-lock.json
+npm-debug.log*
+
+node_modules
+coverage
