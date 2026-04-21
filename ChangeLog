@@ -1,3 +1,25 @@
+2026.04.21, v2.0.0
+
+feature:
+- d68bf4a montag: drop support of node < 22
+- 172674a montag: migrate to ESM
+- 3482a7b montag: supertape v12.11.0
+- 903e346 montag: putout v42.4.6
+- bc2a2fb montag: nodemon v3.1.14
+- a84b599 montag: madrun v13.0.1
+- 1df5276 montag: eslint-plugin-n v17.24.0
+- b5251c9 montag: eslint v10.2.1
+- 37a4bdc montag: superc8 v12.3.1
+- 4a99a3a (package) eslint-plugin-putout v16.3.0
+- 2297026 (package) supertape v8.2.0
+- 85aa846 (package) eslint-plugin-n v15.6.1
+- 1dee90d (package) putout v28.5.0
+- 25f079f (package) supertape v7.2.0
+- 65e3290 (package) madrun v9.0.0
+- 3118595 (package) eslint v8.11.0
+- c5fe2a1 (package) eslint-plugin-putout v14.5.0
+- e8aa927 (package) putout v25.5.0
+
 2021.08.16, v1.2.1
 
 fix:
