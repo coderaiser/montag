@@ -36,6 +36,9 @@
     "url": "https://github.com/coderaiser/montag/issues"
   },
   "homepage": "https://github.com/coderaiser/montag",
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "eslint": "^10.2.1",
     "eslint-plugin-putout": "^31.1.2",
