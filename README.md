@@ -16,7 +16,7 @@ npm i montag
 ## How to use?
 
 ```js
-const montag = require('montag');
+import {montag} from 'montag';
 
 const str1 = montag`
     if (a > b)

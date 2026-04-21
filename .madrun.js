@@ -1,8 +1,6 @@
-'use strict';
+import {run} from 'madrun';
 
-const {run} = require('madrun');
-
-module.exports = {
+export default {
     'test': () => 'tape test/*.js',
     'coverage': async () => `c8 ${await run('test')}`,
     'lint': () => 'putout .',
@@ -18,4 +16,3 @@ module.exports = {
     'watch:coverage:tape': () => run('watcher', 'nyc tape'),
     'watch:coverage': () => run('watch:coverage:base'),
 };
-
