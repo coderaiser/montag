@@ -6,6 +6,7 @@
   "main": "./lib/montag.js",
   "exports": "./lib/montag.js",
   "scripts": {
+    "wisdom": "madrun wisdom",
     "test": "madrun test",
     "test:dts": "madrun test:dts",
     "coverage": "madrun coverage",
