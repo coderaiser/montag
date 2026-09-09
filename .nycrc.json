@@ -2,7 +2,8 @@
     "checkCoverage": true,
     "all": true,
     "exclude": [
-        "**/*.spec.js",
+        "**/*.d.ts",
+        "**/*.spec.*",
         "**/*.config.*",
         "**/fixture",
         ".*.{js,mjs}",

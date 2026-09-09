@@ -7,8 +7,11 @@
   "exports": "./lib/montag.js",
   "scripts": {
     "test": "madrun test",
+    "test:dts": "madrun test:dts",
     "coverage": "madrun coverage",
     "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
     "fix:lint": "madrun fix:lint",
     "report": "madrun report",
     "watcher": "madrun watcher",
@@ -40,6 +43,7 @@
     "node": ">=22"
   },
   "devDependencies": {
+    "check-dts": "^2.0.1",
     "eslint": "^10.2.1",
     "eslint-plugin-putout": "^31.1.2",
     "madrun": "^13.0.1",

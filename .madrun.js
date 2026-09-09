@@ -2,6 +2,7 @@ import {run} from 'madrun';
 
 export default {
     'test': () => 'tape test/*.js',
+    'test:dts': () => 'check-dts test/*.ts',
     'coverage': async () => `c8 ${await run('test')}`,
     'lint': () => 'putout .',
     'fresh:lint': () => run('lint', '--fresh'),
