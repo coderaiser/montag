@@ -4,7 +4,12 @@
   "type": "module",
   "description": "format multiline strings using tagged templates, instead of putting all lines into an array and joining to a string",
   "main": "./lib/montag.js",
-  "exports": "./lib/montag.js",
+  "exports": {
+    ".": {
+      "types": "./lib/montag.d.ts",
+      "default": "./lib/montag.js"
+    }
+  },
   "scripts": {
     "wisdom": "madrun wisdom",
     "test": "madrun test",
@@ -44,11 +49,10 @@
     "node": ">=22"
   },
   "devDependencies": {
-    "check-dts": "^2.0.1",
+    "check-dts": "^1.0.0",
     "eslint": "^10.2.1",
     "eslint-plugin-putout": "^31.1.2",
     "madrun": "^13.0.1",
-    "mock-require": "^3.0.3",
     "nodemon": "^3.1.14",
     "putout": "^42.4.6",
     "superc8": "^12.3.1",
